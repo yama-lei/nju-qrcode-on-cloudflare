@@ -1,0 +1,24 @@
+{
+	"name": "nju-qr",
+	"private": true,
+	"type": "module",
+	"cloudflare": {
+		"bindings": {
+			"WEB_PASSWORD": { "description": "设置查看校园码的网页访问密码。" },
+			"SESSION_KEY": { "description": "设置随机密钥，至少 32 字符；可用 python3 -c 'import secrets; print(secrets.token_hex(32))' 生成。" }
+		}
+	},
+	"scripts": {
+		"test": "node test.ts",
+		"dev": "cf dev",
+		"build": "cf build",
+		"deploy": "cf deploy",
+		"typecheck": "cf workers types && tsc"
+	},
+	"devDependencies": {
+		"@cloudflare/vite-plugin": "beta",
+		"cf": "^1.0.0-beta.12",
+		"typescript": "^7.0.2",
+		"vite": "^8.3.0"
+	}
+}

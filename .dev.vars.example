@@ -1,0 +1,4 @@
+# 网页访问密码，自行设置。
+WEB_PASSWORD=
+# 使用 python3 -c 'import secrets; print(secrets.token_hex(32))' 生成。
+SESSION_KEY=

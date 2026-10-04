@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "apk-reverse": {
+      "source": "newliver666/apk-reverse",
+      "sourceType": "github",
+      "skillPath": "skills/apk-reverse/SKILL.md",
+      "computedHash": "ea63fbab44535f88a57fe4587dcfd15a9a04fc8ed3c311b16f81f5ab53305b8d"
+    }
+  }
+}
